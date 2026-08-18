@@ -1,0 +1,150 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="MWpjSxOp-WvoPPZRavAJ">
+    <mxGraphModel dx="1557" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="180" width="250" x="41.25" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-25" edge="1" parent="1" source="FSuldy_ZDpSkRawvRfAq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.034;exitY=1.005;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="FSuldy_ZDpSkRawvRfAq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-26" edge="1" parent="1" source="FSuldy_ZDpSkRawvRfAq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FSuldy_ZDpSkRawvRfAq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Usuario&lt;/h1&gt;&lt;div&gt;-idUsuario: String&lt;/div&gt;&lt;div&gt;-nombre: String&lt;/div&gt;&lt;div&gt;-email: String&lt;/div&gt;&lt;div&gt;-telefono: String&lt;/div&gt;&lt;div&gt;-calificación: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+solicitarViaje(): Viaje&lt;/div&gt;&lt;div&gt;+calificarConductor()&lt;/div&gt;&lt;div&gt;+agregarMetodoPago()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="250" x="42.25" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-3" edge="1" parent="1" source="FSuldy_ZDpSkRawvRfAq-2" style="endArrow=none;html=1;rounded=0;exitX=-0.009;exitY=0.689;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.004;entryY=0.68;entryDx=0;entryDy=0;entryPerimeter=0;" target="FSuldy_ZDpSkRawvRfAq-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="221.25" y="244" as="sourcePoint" />
+            <mxPoint x="231.25" y="163.12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="180" width="250" x="541.25" y="329" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-36" edge="1" parent="1" source="FSuldy_ZDpSkRawvRfAq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FSuldy_ZDpSkRawvRfAq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-5" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Conductor&lt;/h1&gt;&lt;div&gt;-idConductir: String&lt;/div&gt;&lt;div&gt;-licencia: String&lt;/div&gt;&lt;div&gt;-estado: String&lt;/div&gt;&lt;div&gt;-calificación: Float&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+aceptarViaje()&lt;/div&gt;&lt;div&gt;+finalizarViaje()&lt;/div&gt;&lt;div&gt;+cambiarEstado()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="250" x="542.25" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-6" edge="1" parent="1" source="FSuldy_ZDpSkRawvRfAq-5" style="endArrow=none;html=1;rounded=0;exitX=-0.009;exitY=0.689;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.004;entryY=0.68;entryDx=0;entryDy=0;entryPerimeter=0;" target="FSuldy_ZDpSkRawvRfAq-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="721.25" y="529" as="sourcePoint" />
+            <mxPoint x="731.25" y="448.12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="166" width="250" x="931.25" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Vehiculo&lt;/h1&gt;&lt;div&gt;-idVehiculo: String&lt;/div&gt;&lt;div&gt;-placa:String&lt;/div&gt;&lt;div&gt;-modelo: String&lt;/div&gt;&lt;div&gt;-capacidad: Int&lt;/div&gt;&lt;div&gt;-categoria: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+esApto()&lt;/div&gt;&lt;div&gt;+validarDocumentos()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="250" x="932.25" y="329" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-9" edge="1" parent="1" source="FSuldy_ZDpSkRawvRfAq-8" style="endArrow=none;html=1;rounded=0;exitX=-0.009;exitY=0.689;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.004;entryY=0.68;entryDx=0;entryDy=0;entryPerimeter=0;" target="FSuldy_ZDpSkRawvRfAq-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1111.25" y="533" as="sourcePoint" />
+            <mxPoint x="1121.25" y="452.12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="166" width="255.25" x="440" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-35" edge="1" parent="1" source="FSuldy_ZDpSkRawvRfAq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FSuldy_ZDpSkRawvRfAq-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Viaje&lt;/h1&gt;&lt;div&gt;-idViaje: String&lt;/div&gt;&lt;div&gt;-origen: coordenada&lt;/div&gt;&lt;div&gt;-destino: coordenada&lt;/div&gt;&lt;div&gt;-tarifabase: doble&amp;nbsp;&lt;/div&gt;&lt;div&gt;-estadoviaje: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+calcularTarifa()&lt;/div&gt;&lt;div&gt;+actualizarEstado()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="250" x="446.25" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-12" edge="1" parent="1" source="FSuldy_ZDpSkRawvRfAq-11" style="endArrow=none;html=1;rounded=0;exitX=-0.009;exitY=0.689;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.004;entryY=0.68;entryDx=0;entryDy=0;entryPerimeter=0;" target="FSuldy_ZDpSkRawvRfAq-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="625.25" y="248" as="sourcePoint" />
+            <mxPoint x="635.25" y="167.12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="156" width="250" x="39.87" y="574" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-15" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MetodoPago&lt;/h1&gt;&lt;div&gt;-idMetodoPago: String&lt;/div&gt;&lt;div&gt;-tipo: String&lt;/div&gt;&lt;div&gt;-tokenPago: String&lt;/div&gt;&lt;div&gt;-esValido: Boolean&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+validarFondos()&lt;/div&gt;&lt;div&gt;+procesarCobro()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="250" x="40.870000000000005" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-16" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40.12" y="680" as="sourcePoint" />
+            <mxPoint x="291.62" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="152" width="250" x="331.25" y="578" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-20" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Factura&lt;/h1&gt;&lt;div&gt;-idFactura: String&lt;/div&gt;&lt;div&gt;-folioFiscal: String&lt;/div&gt;&lt;div&gt;-fecha: DateTime&lt;/div&gt;&lt;div&gt;-montoTotal: Double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+generarFolio()&lt;/div&gt;&lt;div&gt;+enviarAlCliente()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="250" x="332.25" y="574" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-21" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="680" as="sourcePoint" />
+            <mxPoint x="580" y="678.94" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-31" edge="1" parent="1" source="FSuldy_ZDpSkRawvRfAq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.643;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" target="FSuldy_ZDpSkRawvRfAq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-34" edge="1" parent="1" source="FSuldy_ZDpSkRawvRfAq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.275;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.903;exitDx=0;exitDy=0;exitPerimeter=0;" target="FSuldy_ZDpSkRawvRfAq-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="399.83" y="197.89" />
+              <mxPoint x="399.83" y="387" />
+              <mxPoint x="109.6" y="387" />
+            </Array>
+            <mxPoint x="436.94" y="198.4" as="sourcePoint" />
+            <mxPoint x="110.04" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="30" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="n" vertex="1">
+          <mxGeometry height="30" width="60" x="30" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="770" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="880" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="n" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="446.25" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="n" vertex="1">
+          <mxGeometry height="30" width="60" x="395" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="196" width="573.75" x="696.25" y="634" as="geometry" />
+        </mxCell>
+        <mxCell id="FSuldy_ZDpSkRawvRfAq-53" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Invariantes&lt;/h1&gt;&lt;div&gt;&lt;div&gt;Invariante de Estado de Conductor: Un Conductor no puede ser asignado a un nuevo Viaje si su atributo estado es diferente de &quot;Disponible&quot;.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Invariante de Calificación: El valor de la propiedad calificacion en Usuario o Conductor debe ser estrictamente un decimal entre 1.0 y 5.0.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Invariante de Cobro: El valor total de Factura.montoTotal debe ser siempre estrictamente mayor a 0 y mayor o igual a Viaje.tarifaBase.&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="550" x="710" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
